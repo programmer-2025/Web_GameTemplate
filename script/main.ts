@@ -1,4 +1,4 @@
-import { Location2D } from './Location2D.js';
+import { Location2D } from './library/Location2D.js';
 
 const canvas = document.getElementById('game') as HTMLCanvasElement;
 const render2D:CanvasRenderingContext2D = canvas.getContext('2d') as CanvasRenderingContext2D;
@@ -17,8 +17,6 @@ function init() {
 }
 
 function update() {
-    loc.x_ += 1;
-    loc.y_ += 1;
 }
 
 function draw() {
